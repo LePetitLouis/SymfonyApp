@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Grandstander:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+h1{
+    font-size: 2rem;
+    font-family: 'Grandstander', cursive;
+}
+
+/** HEADER **/
+header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3%;
+    /*border-bottom: 1px solid grey;*/
+}
+
+.navbar{
+    width: 30%;
+}
+
+.navbar li{
+    display: inline-block;
+    margin: 0 5%;
+}
+
+.navbar li a{
+    font-size: 1.1rem;
+    color: indianred;
+}
+
+/** MAIN **/
+main{
+    margin-top: 50px;
+}
+
+.title{
+    width: 100%;
+    text-align: center;
+}
+
+.News{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 25px;
+}
+
+.card{
+    width: 30%;
+    text-align: center;
+    margin: 3% 20px;
+}
+
+.card p{
+    margin-top: 15px;
+    text-align: initial;
+}
+

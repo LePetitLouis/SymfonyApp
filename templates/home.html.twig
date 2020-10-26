@@ -1,0 +1,17 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}SymfonyApp{% endblock %}
+
+{% block body %}
+    <main>
+        <h1 class="title">Média Français</h1>
+        <section class="News">
+            {% for new in news.sources %}
+            <div class="card">
+                <h2>{{ new.name }}</h2>
+                <p>{{ new.description }} <br><br> Catégorie: <strong>{{ new.category }}</strong></p>
+            </div>
+            {% endfor %}
+        </section>      
+    </main>
+{% endblock %}
